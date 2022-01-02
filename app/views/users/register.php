@@ -37,7 +37,7 @@
 
         <button id="submit" type="submit" value="submit">Submit</button>
 
-        <p class="options">Already have an account? <a href="<?php echo URLROOT; ?>/users/login">Login!</a></p>
+        <p class="options">Already have an account? <a href="<?php echo URLROOT; ?>users/login">Login!</a></p>
     </form>
     </div>
 </div>

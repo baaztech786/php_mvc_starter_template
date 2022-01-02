@@ -203,6 +203,6 @@ class Users extends Controller
       unset($_SESSION['username']);
       unset($_SESSION['email']);
       session_destroy();
-      header('Location:'. URLROOT . '/users/login');
+      header('Location:'. URLROOT . 'users/login');
     }
 }
