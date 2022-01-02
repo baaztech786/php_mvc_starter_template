@@ -1,7 +1,3 @@
-*
-{
-    margin: 0;
-}
 html,body
 {
     height: 100%;
@@ -11,8 +7,29 @@ html,body
     top: 0;
     bottom: 0;
     font-family: 'Lato', sans-serif;
+    background-color: #f2f2f2;
 }
-
+a
+{
+    text-decoration: none;
+}
+h2
+{
+    font-size: 50px;
+    margin: 0;
+}
+h3
+{
+    font-size: 40px;
+    color: #696969;
+    font-weight: 100;
+    font-style: italic;
+}
+p
+{
+    font-size: 18px;
+    color: #666;
+}
 .top-nav
 {
     display: block;
@@ -23,7 +40,7 @@ html,body
     padding: 0;
     position: absolute;
     right: 6%;
-    top: 2%;
+    top: 3%;
 }
 .top-nav ul li
 {
@@ -86,7 +103,8 @@ html,body
     width: 100%;
     height: 70px;
     background-color: #1a1a1a;
-    box-shadow: 0px 0px 0px 10px #1a1a1a;
+    box-shadow: 0px 0px 10px #1a1a1a;
+
 }
 
 .container-login
@@ -153,4 +171,94 @@ input::placeholder
 .invalidFeedback
 {
     color: #ff0000;
+}
+
+/* Blog */
+.dark
+{
+    background-color: #000000;
+    box-shadow: 0px 0px 10px #000000;
+}
+.container
+{
+    margin: 0 auto;
+    width: 80%;
+    padding: 100px 0px;
+}
+.container-item
+{
+    border-bottom: 1px solid #dcdcdc;
+    padding: 40px 0px;
+}
+
+.btn
+{
+    padding: 8px 18px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.btn:hover
+{
+    color: #fff;
+}
+.green
+{
+    background-color: #4CAF50;
+}
+.green:hover
+{
+    background-color: #64A764;
+    transition: 0.20s ease-in;
+}
+
+/* create post */
+.center
+{
+    text-align: center;
+}
+input ,textarea
+{
+    width: 400px;
+    margin: 20px 0px;
+    border: 1px solid #cbcbcb;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    padding: 8px;
+    font-size: 18px;
+    color: #666;
+}
+input{
+    height: 35px;
+}
+textarea
+{
+    height: 200px;
+}
+::placeholder
+{
+    font-size: 14px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.orange
+{
+    background-color: orange;
+    color: #000;
+    float: right;
+}
+
+.red
+{
+    background-color: #ff0000;
+    margin: 0px 20px;
+    float: right;
+}
+
+input[type=submit]
+{
+ width: 10%;
+ padding-top: 4px;
 }
